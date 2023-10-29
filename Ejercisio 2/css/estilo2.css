@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items:first center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('ruta/a/tu/roboto-bold.woff2') format('woff2'),
+        url('ruta/a/tu/roboto-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('ruta/a/tu/roboto-light.woff2') format('woff2'),
+    url('ruta/a/tu/roboto-light.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('ruta/a/tu/roboto-regular.woff2') format('woff2'),
+        url('ruta/a/tu/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#paleta{
+    width: 30%;
+    position: absolute;
+    left:100px;
+    margin-top: 85px; /* Ajusta el margen superior según sea necesario */
+}
+
+.titulo{
+    font-family: 'RobotoBold', sans-serif;
+    font-size: 48pt;
+    color:#0a2ff1;
+
+}
+
+.superior{
+
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 24pt;
+    color: #04146c;
+}
+
+.inferior{
+    
+    font-family: 'RobotoBold & RobotoRegular ',sans-serif;
+    font-size: 12pt;
+    color: #04146c;;  
+}
+
+
+
+
+

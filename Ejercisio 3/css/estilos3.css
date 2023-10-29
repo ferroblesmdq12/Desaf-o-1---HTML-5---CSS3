@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'ColveticaRegular';
+    src: url('ruta/a/tu/colvetica-regular.woff2') format('woff2'),
+        url('ruta/a/tu/colvetica-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('ruta/a/tu/roboto-bold.woff2') format('woff2'),
+        url('ruta/a/tu/roboto-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('ruta/a/tu/roboto-light.woff2') format('woff2'),
+    url('ruta/a/tu/roboto-light.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('ruta/a/tu/roboto-regular.woff2') format('woff2'),
+        url('ruta/a/tu/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo{
+
+    font-family: 'ColveticaRegular', sans-serif;
+    font-size: 90pt;
+    color:#0a2ff1;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.parrafo{
+
+    font-family: 'robotBold', sans-serif;
+    font-size: 30pt;
+    color: #04146c;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+#com{
+
+    width: 75%;
+    position: absolute;
+    left:100px;
+    margin-top: 5px; 
+}
